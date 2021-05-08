@@ -2,7 +2,7 @@
 
 return [
 
-	'default_module' => null,
+	'default_module' => 'broadcaster',
 	'modules' => [
 		'broadcaster' => [
 			'module_class' => '\App\Modules\Broadcaster\Module',
