@@ -10,7 +10,7 @@ use App\Modules\Receiver\Providers\LangServiceProvider;
 use App\Modules\Receiver\Providers\MessagingServiceProvider;
 use App\Modules\Receiver\Providers\RouteServiceProvider;
 use App\Modules\Receiver\Providers\ViewServiceProvider;
-use Dptsi\Modular\Base\Module as BaseModule;
+use Dptsi\Modular\Base\BaseModule;
 
 class Module extends BaseModule
 {

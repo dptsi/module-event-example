@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64fc09a20d45479848afcf121dace466",
+    "content-hash": "8c312b0f4bd37df31df6c7002374b213",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -295,16 +295,16 @@
         },
         {
             "name": "dptsi/laravel-modular",
-            "version": "v1.0.0",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dptsi/laravel-modular.git",
-                "reference": "52c3e1a4e2086a1e512d32cacaefae125299d7fc"
+                "reference": "674be4e415bb704d13b630637f0bb8dd57c87152"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dptsi/laravel-modular/zipball/52c3e1a4e2086a1e512d32cacaefae125299d7fc",
-                "reference": "52c3e1a4e2086a1e512d32cacaefae125299d7fc",
+                "url": "https://api.github.com/repos/dptsi/laravel-modular/zipball/674be4e415bb704d13b630637f0bb8dd57c87152",
+                "reference": "674be4e415bb704d13b630637f0bb8dd57c87152",
                 "shasum": ""
             },
             "require": {
@@ -335,9 +335,9 @@
             "description": "Laravel modular template developed for DPTSI projects",
             "support": {
                 "issues": "https://github.com/dptsi/laravel-modular/issues",
-                "source": "https://github.com/dptsi/laravel-modular/tree/v1.0.0"
+                "source": "https://github.com/dptsi/laravel-modular/tree/v2.0.0"
             },
-            "time": "2021-05-01T08:06:57+00:00"
+            "time": "2021-05-07T14:51:37+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",
@@ -7380,7 +7380,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.3|^8.0"
+        "php": "^7.4"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"

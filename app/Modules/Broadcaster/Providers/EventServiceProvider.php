@@ -2,7 +2,7 @@
 
 namespace App\Modules\Broadcaster\Providers;
 
-use Dptsi\Modular\Facade\ModuleManager;
+use Dptsi\Modular\Facade\Module;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
 class EventServiceProvider extends ServiceProvider
@@ -19,7 +19,7 @@ class EventServiceProvider extends ServiceProvider
     protected function discoverEventsWithin()
     {
         return [
-            ModuleManager::path('Broadcaster', 'Core/Application/EventListeners'),
+            Module::path('Broadcaster', 'Core/Application/EventListeners'),
         ];
     }
 }
